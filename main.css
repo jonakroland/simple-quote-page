@@ -5,6 +5,7 @@ body{
 	background-size: cover;
 	color: #333;
 	text-align: center;
+	position: relative;
 }
 
 .wrapper{
@@ -44,4 +45,15 @@ body{
 	.author{
 		font-size: 2rem;
 	}
+}
+
+footer{
+	display: block;
+	position: absolute;
+	bottom: 2rem;
+	width: 100%;
+}
+
+img{
+	width: 3rem;
 }
